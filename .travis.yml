@@ -1,0 +1,6 @@
+language: python
+python:
+  - "3.4"
+install: "pip3 install -r requirements.txt"
+script:
+- SECRET_KEY=”^v9h)v1grl3zgjo!@=3#=(if6e1&8pn1eyk%2cscs2m@drlc8l” python3 manage.py test
